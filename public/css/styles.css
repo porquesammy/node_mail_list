@@ -33,6 +33,10 @@ body {
   border-top-right-radius: 0;
 }
 
+.jumbotron {
+  margin: auto;
+}
+
 .form-signin {
   width: 100%;
   max-width: 330px;

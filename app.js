@@ -40,7 +40,7 @@ app.post('/', function(req, res) {
                 url: 'https://us20.api.mailchimp.com/3.0/lists/b9cedb6b20',
                 method: 'POST',
                 headers: {
-                        Authorization: 'porqueSammy dab4f02e8be54c784bd3327ee313aa25-us20',
+                        Authorization: 'craig dab4f02e8be54c784bd3327ee313aa25-us20',
                 },
                 body: jsonData,
         };
@@ -64,7 +64,7 @@ app.post('/success', function(req, res) {
         res.redirect('/');
 });
 
-app.listen(process.env.PORT || 3000, function() {
+app.listen(3000 || process.env.PORT, function() {
         // eslint-disable-next-line no-console
         console.log('server successful');
 });
